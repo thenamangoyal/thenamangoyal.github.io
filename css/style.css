@@ -36,6 +36,12 @@ footer p {
   font-size:1.1em;
 }
 
+.nav-item {
+}
+
+.nav-item-right{
+  font-size: 0.8em;
+}
 .jumbotron {
   padding-top: 6rem;
   /*padding-bottom: 6rem;*/
