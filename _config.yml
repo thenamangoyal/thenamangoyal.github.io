@@ -31,6 +31,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header_pages:
+  - index.html
+  - projects.html
+  - research.html
+  - achievements.html
+  - coursework.html
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
