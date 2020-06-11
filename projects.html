@@ -1,332 +1,286 @@
 ---
 title: Projects
 layout: bootstrap
+permalink: "/projects"
 ---
-<div class="content">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">&nbsp;</a>
-        <div class="navbar-collapse collapse justify-content-between" id="navbarCollapse">
-            <div>
-                <!--placeholder to evenly space flexbox items and center links-->
-            </div>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/research">Research</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/achievements">Achievements</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/coursework">Coursework</a>
-                </li>
-                <!--                 <li class="nav-item">
-                    <a class="nav-link" href="/calendar">Calendar</a>
-                </li> -->
-                <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="https://bit.ly/namangoyal">CV</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav flex-row justify-content-between">
-                <li class="nav-item"><a class="nav-link" href="mailto:namangoyal1001@gmail.com"><i
-                            class="far fa-envelope"></i></a></li>
-                <li class="nav-item"><a target="_blank" class="nav-link" href="https://github.com/thenamangoyal"><i
-                            class="fab fa-github"></i></a></li>
-                <li class="nav-item"><a target="_blank" class="nav-link"
-                        href="https://www.linkedin.com/in/goyal-naman/"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="jumbotron">
-        <div class="container">
-            <!-- <h1 class="jumbotron-heading">Heading</h1> -->
-            <p class="lead text-center">Showcase of implemented projects</p>
-            <p class="text-center">
-                <a target="_blank" href="https://github.com/thenamangoyal" class="btn btn-primary"><i
-                        class="fab fa-github"></i> Github</a>
-            </p>
-        </div>
-    </section>
+<section class="jumbotron">
     <div class="container">
-        <div class="list-group">
+        <!-- <h1 class="jumbotron-heading">Heading</h1> -->
+        <p class="lead text-center">Showcase of implemented projects</p>
+        <p class="text-center">
+            <a target="_blank" href="https://github.com/thenamangoyal" class="btn btn-primary"><i
+                    class="fab fa-github"></i> Github</a>
+        </p>
+    </div>
+</section>
+<div class="container">
+    <div class="list-group">
 
-            <a target="_blank" href="https://github.com/thenamangoyal/adversarial-attack"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Adversarial Attack on Neural Networks</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+        <a target="_blank" href="https://github.com/thenamangoyal/adversarial-attack"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Adversarial Attack on Neural Networks</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">August 2017 - December 2017</small>
+                <div>
+                    <!-- <object><a -->
+                    <!-- href="https://www.codacy.com/app/namangl/artificial-intelligence?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/artificial-intelligence&amp;utm_campaign=Badge_Grade"><img -->
+                    <!-- src="https://api.codacy.com/project/badge/Grade/96ae6e6a3a804e9d9d2c4194dc4abb11"/></a> -->
+                    <!-- </object> -->
+                    <span class="badge badge-success">Completed</span>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">August 2017 - December 2017</small>
-                    <div>
-                        <!-- <object><a -->
-                        <!-- href="https://www.codacy.com/app/namangl/artificial-intelligence?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/artificial-intelligence&amp;utm_campaign=Badge_Grade"><img -->
-                        <!-- src="https://api.codacy.com/project/badge/Grade/96ae6e6a3a804e9d9d2c4194dc4abb11"/></a> -->
-                        <!-- </object> -->
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">Adversarial attack refer to transforming the input such that the perturbed input
-                        results in the model outputting an incorrect answer with high confidence. Experimented on
-                        Fast Gradient Method, Basic Iterative Method, Virtual Adversarial Method using the
-                        InceptionV3 model and evaluate using pre-trained using InceptionV3, InceptionV2, ResNet V2
-                        152 over classification task.
-                        <br>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">Adversarial attack refer to transforming the input such that the perturbed input
+                    results in the model outputting an incorrect answer with high confidence. Experimented on
+                    Fast Gradient Method, Basic Iterative Method, Virtual Adversarial Method using the
+                    InceptionV3 model and evaluate using pre-trained using InceptionV3, InceptionV2, ResNet V2
+                    152 over classification task.
+                    <br>
 
-                        Developed method Binary Iterative Method which performs well over most of others methods on
-                        1000 images sampled from the standard ImageNet dataset.</p>
-                </div>
-            </a>
+                    Developed method Binary Iterative Method which performs well over most of others methods on
+                    1000 images sampled from the standard ImageNet dataset.</p>
+            </div>
+        </a>
 
-            <a target="_blank" href="https://github.com/thenamangoyal/artificial-intelligence"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Artificial Intelligence</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+        <a target="_blank" href="https://github.com/thenamangoyal/artificial-intelligence"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Artificial Intelligence</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">January 2017 - August 2017</small>
+                <div>
+                    <object><a target="_blank"
+                            href="https://www.codacy.com/app/namangl/artificial-intelligence?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/artificial-intelligence&amp;utm_campaign=Badge_Grade"><img
+                                src="https://api.codacy.com/project/badge/Grade/96ae6e6a3a804e9d9d2c4194dc4abb11" /></a>
+                    </object>
+                    <span class="badge badge-success">Completed</span>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">January 2017 - August 2017</small>
-                    <div>
-                        <object><a target="_blank"
-                                href="https://www.codacy.com/app/namangl/artificial-intelligence?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/artificial-intelligence&amp;utm_campaign=Badge_Grade"><img
-                                    src="https://api.codacy.com/project/badge/Grade/96ae6e6a3a804e9d9d2c4194dc4abb11" /></a>
-                        </object>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">Design a rational agent which maximizes the expected value of performance
-                        measure give the precept sequence and prior knowledge. Analyzed Passive Reinforcement
-                        learning to evaluate a given policy and Active Reinforcement learning to find the optimal
-                        policy through exploration using Adaptive Dynamic Programming and Temporal Difference
-                        learning, using the Markov Decision Process.<br>
-                        Developed projects for Inferencing over Bayesian network, Adversarial Search (Multiagent),
-                        Planner, Constraint Satisfaction Problem and Local Search techniques.</li>
-                        </ul>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">Design a rational agent which maximizes the expected value of performance
+                    measure give the precept sequence and prior knowledge. Analyzed Passive Reinforcement
+                    learning to evaluate a given policy and Active Reinforcement learning to find the optimal
+                    policy through exploration using Adaptive Dynamic Programming and Temporal Difference
+                    learning, using the Markov Decision Process.<br>
+                    Developed projects for Inferencing over Bayesian network, Adversarial Search (Multiagent),
+                    Planner, Constraint Satisfaction Problem and Local Search techniques.</li>
+                    </ul>
 
-                </div>
-            </a>
+            </div>
+        </a>
 
-            <a target="_blank" href="https://github.com/thenamangoyal/machine-learning"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Machine Learning</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+        <a target="_blank" href="https://github.com/thenamangoyal/machine-learning"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Machine Learning</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">August 2017 - Present</small>
+                <div>
+                    <object><a target="_blank"
+                            href="https://www.codacy.com/app/namangl/machine-learning?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/machine-learning&amp;utm_campaign=Badge_Grade"><img
+                                src="https://api.codacy.com/project/badge/Grade/9248b5a2608043878bcfe217e2821ec8" /></a>
+                    </object>
+                    <span class="badge badge-success">Completed</span>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">August 2017 - Present</small>
-                    <div>
-                        <object><a target="_blank"
-                                href="https://www.codacy.com/app/namangl/machine-learning?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/machine-learning&amp;utm_campaign=Badge_Grade"><img
-                                    src="https://api.codacy.com/project/badge/Grade/9248b5a2608043878bcfe217e2821ec8" /></a>
-                        </object>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
+            </div>
 
-                <div class="d-flex w-100 justify-content-between">
-                    <div class="d-flex w-100 ">
-                        <ul>
-                            <li>Multi-layer perceptrons and Self Driving Cars where back propagation was implemented
-                                from scratch</li>
-                            <li>Sentiment classification of movie reviews using decision trees and forest</li>
-                            <li>Regularized Linear and Logistic Regression for abalone age prediction</li>
-                            <li>K-means clustering, Principal Component Analysis on MNIST.</li>
-                        </ul>
-                    </div>
+            <div class="d-flex w-100 justify-content-between">
+                <div class="d-flex w-100 ">
+                    <ul>
+                        <li>Multi-layer perceptrons and Self Driving Cars where back propagation was implemented
+                            from scratch</li>
+                        <li>Sentiment classification of movie reviews using decision trees and forest</li>
+                        <li>Regularized Linear and Logistic Regression for abalone age prediction</li>
+                        <li>K-means clustering, Principal Component Analysis on MNIST.</li>
+                    </ul>
                 </div>
-            </a>
+            </div>
+        </a>
 
-            <a target="_blank" href="https://github.com/thenamangoyal/image-segmentation-and-dimension-analysis"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Image Segmentation and Dimension Analysis</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+        <a target="_blank" href="https://github.com/thenamangoyal/image-segmentation-and-dimension-analysis"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Image Segmentation and Dimension Analysis</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">August 2017 - December 2017</small>
+                <div>
+                    <span class="badge badge-success">Completed</span>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">August 2017 - December 2017</small>
-                    <div>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">Segmentation of image using through foreground extraction techniques such as
-                        lazy snapping, GrabCut, Active Contours, Morphological operations and predicting the
-                        dimension of object.<br>
-                        The desired object is selected and further the reference object help us to extract the real
-                        life dimensions.
-                    </p>
-                </div>
-            </a>
-
-
-            <a target="_blank" href="https://github.com/thenamangoyal/computer-vision"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Computer Vision</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">August 2017 - Present</small>
-                    <div>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-
-                <div class="d-flex w-100 justify-content-between">
-                    <div class="d-flex w-100 ">
-                        <ul>
-                            <li>Hyrbid Image Creation using full binary tree representation.</li>
-                            <li>Image classification using Bag of words (Kmeans++) on MNIST-fashion database.</li>
-                            <li>Image Wraping using Homography Computation based on interest point matching.</li>
-                            <li>Object detection (autorickshaw) using HOG and SVM classifier</li>
-                            <li>Canny Edge and Harris Interest Points Detection</li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">Segmentation of image using through foreground extraction techniques such as
+                    lazy snapping, GrabCut, Active Contours, Morphological operations and predicting the
+                    dimension of object.<br>
+                    The desired object is selected and further the reference object help us to extract the real
+                    life dimensions.
+                </p>
+            </div>
+        </a>
 
 
-            <a target="_blank" href="https://github.com/thenamangoyal/software-systems-lab"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Event Management Android App</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+        <a target="_blank" href="https://github.com/thenamangoyal/computer-vision"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Computer Vision</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">August 2017 - Present</small>
+                <div>
+                    <span class="badge badge-success">Completed</span>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">January 2017 - August 2017</small>
-                    <div>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">A complete Andorid app with Application server to ease students' stay at IIT
-                        Ropar,
-                        and provide one click access to all relevant updates at the institute.</p>
-                </div>
-            </a>
+            </div>
 
-            <a target="_blank" href="https://github.com/thenamangoyal/RISC-Simulator"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">RISC Simulator</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            <div class="d-flex w-100 justify-content-between">
+                <div class="d-flex w-100 ">
+                    <ul>
+                        <li>Hyrbid Image Creation using full binary tree representation.</li>
+                        <li>Image classification using Bag of words (Kmeans++) on MNIST-fashion database.</li>
+                        <li>Image Wraping using Homography Computation based on interest point matching.</li>
+                        <li>Object detection (autorickshaw) using HOG and SVM classifier</li>
+                        <li>Canny Edge and Harris Interest Points Detection</li>
+                    </ul>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">October 2016 – December 2016</small>
-                    <div>
-                        <object><a target="_blank"
-                                href="https://www.codacy.com/app/namangl/RISC-Simulator?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/RISC-Simulator&amp;utm_campaign=Badge_Grade"><img
-                                    src="https://api.codacy.com/project/badge/Grade/1afca99d10034949b6eefa81f56240dd" /></a>
-                        </object>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">A complete simulator in C++ to run the assembly programs in Simple RISC language
-                        and
-                        experimented with different technique for pipeline.</p>
-                </div>
-            </a>
-
-            <a target="_blank" href="http://alumni.iitrpr.ac.in/"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Alumni Association Portal</h5>
-                    <small class="text-muted"><i class="fas fa-link fa-2x"></i></small>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">March 2016 – August 2016</small>
-                    <div>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">Full Stack Developer of IIT Ropar’s Alumni Association website which serves 350+
-                        members.</p>
-                </div>
-            </a>
+            </div>
+        </a>
 
 
-            <a target="_blank" href="https://github.com/thenamangoyal/architecture"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Computer Architecture</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+        <a target="_blank" href="https://github.com/thenamangoyal/software-systems-lab"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Event Management Android App</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">January 2017 - August 2017</small>
+                <div>
+                    <span class="badge badge-success">Completed</span>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">September 2016 – December 2016</small>
-                    <div>
-                        <object><a target="_blank"
-                                href="https://www.codacy.com/app/namangl/architecture?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/architecture&amp;utm_campaign=Badge_Grade"><img
-                                    src="https://api.codacy.com/project/badge/Grade/3ba2a17da7294cd3a3d5b4c917e92ca1" /></a>
-                        </object>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">A complete Andorid app with Application server to ease students' stay at IIT
+                    Ropar,
+                    and provide one click access to all relevant updates at the institute.</p>
+            </div>
+        </a>
+
+        <a target="_blank" href="https://github.com/thenamangoyal/RISC-Simulator"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">RISC Simulator</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">October 2016 – December 2016</small>
+                <div>
+                    <object><a target="_blank"
+                            href="https://www.codacy.com/app/namangl/RISC-Simulator?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/RISC-Simulator&amp;utm_campaign=Badge_Grade"><img
+                                src="https://api.codacy.com/project/badge/Grade/1afca99d10034949b6eefa81f56240dd" /></a>
+                    </object>
+                    <span class="badge badge-success">Completed</span>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">Projects based on Computer Architecture including Assembly language programming,
-                        Memory Cache Analysis and IEEE 754 Adder.</p>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">A complete simulator in C++ to run the assembly programs in Simple RISC language
+                    and
+                    experimented with different technique for pipeline.</p>
+            </div>
+        </a>
+
+        <a target="_blank" href="http://alumni.iitrpr.ac.in/"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Alumni Association Portal</h5>
+                <small class="text-muted"><i class="fas fa-link fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">March 2016 – August 2016</small>
+                <div>
+                    <span class="badge badge-success">Completed</span>
                 </div>
-            </a>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">Full Stack Developer of IIT Ropar’s Alumni Association website which serves 350+
+                    members.</p>
+            </div>
+        </a>
 
 
-            <a target="_blank" href="https://github.com/thenamangoyal/data-structures"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Data Structures</h5>
-                    <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+        <a target="_blank" href="https://github.com/thenamangoyal/architecture"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Computer Architecture</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">September 2016 – December 2016</small>
+                <div>
+                    <object><a target="_blank"
+                            href="https://www.codacy.com/app/namangl/architecture?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/architecture&amp;utm_campaign=Badge_Grade"><img
+                                src="https://api.codacy.com/project/badge/Grade/3ba2a17da7294cd3a3d5b4c917e92ca1" /></a>
+                    </object>
+                    <span class="badge badge-success">Completed</span>
                 </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">September 2016 – December 2016</small>
-                    <div>
-                        <object><a target="_blank"
-                                href="https://www.codacy.com/app/namangl/data-structures?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/data-structures&amp;utm_campaign=Badge_Grade"><img
-                                    src="https://api.codacy.com/project/badge/Grade/0443303a6cec45078f8caa104b5f840d" /></a>
-                        </object>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">Implementation of advanced data structures like AVL Trees, Red Black Tree, Hash
-                        Map
-                        from scratch.
-                        Using Graphs and basic data structures to solve real world problems like making a Room
-                        booking
-                        system.</p>
-                </div>
-            </a>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">Projects based on Computer Architecture including Assembly language programming,
+                    Memory Cache Analysis and IEEE 754 Adder.</p>
+            </div>
+        </a>
 
-            <a target="_blank" href="https://goo.gl/LPmdVJ"
-                class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Single Instruction Processor</h5>
-                    <small class="text-muted"><i class="fas fa-file-alt fa-2x"></i></small>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <small class="text-muted">September 2016 – December 2016</small>
-                    <div>
-                        <span class="badge badge-success">Completed</span>
-                    </div>
-                </div>
-                <div class="d-flex w-100 justify-content-between">
-                    <p class="mb-1">Designing a Turing complete single instruction processor which is subtract and
-                        branch if negative (SBN)
-                        using only flip flops, logical gates and Multiplexer.</p>
-                </div>
-            </a>
-        </div>
-    </div> <!-- /.container -->
 
-</div>
+        <a target="_blank" href="https://github.com/thenamangoyal/data-structures"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Data Structures</h5>
+                <small class="text-muted"><i class="fab fa-github fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">September 2016 – December 2016</small>
+                <div>
+                    <object><a target="_blank"
+                            href="https://www.codacy.com/app/namangl/data-structures?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=namangl/data-structures&amp;utm_campaign=Badge_Grade"><img
+                                src="https://api.codacy.com/project/badge/Grade/0443303a6cec45078f8caa104b5f840d" /></a>
+                    </object>
+                    <span class="badge badge-success">Completed</span>
+                </div>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">Implementation of advanced data structures like AVL Trees, Red Black Tree, Hash
+                    Map
+                    from scratch.
+                    Using Graphs and basic data structures to solve real world problems like making a Room
+                    booking
+                    system.</p>
+            </div>
+        </a>
+
+        <a target="_blank" href="https://goo.gl/LPmdVJ"
+            class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Single Instruction Processor</h5>
+                <small class="text-muted"><i class="fas fa-file-alt fa-2x"></i></small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <small class="text-muted">September 2016 – December 2016</small>
+                <div>
+                    <span class="badge badge-success">Completed</span>
+                </div>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+                <p class="mb-1">Designing a Turing complete single instruction processor which is subtract and
+                    branch if negative (SBN)
+                    using only flip flops, logical gates and Multiplexer.</p>
+            </div>
+        </a>
+    </div>
+</div> <!-- /.container -->
