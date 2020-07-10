@@ -33,8 +33,8 @@ plugins:
 
 header_pages:
   - index.html
-  - projects.html
   - research.html
+  - projects.html
   - achievements.html
   - coursework.html
 
