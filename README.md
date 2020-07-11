@@ -2,7 +2,7 @@
 
 https://namangoyal.com
 
-Mirror http://thenamangoyal.github.io/
+Mirror http://thenamangoyal.github.io
 
 ## Serve Jekyll Locally
 `bundle exec jekyll serve`
