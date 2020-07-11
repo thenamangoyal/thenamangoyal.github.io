@@ -1,5 +1,9 @@
 # Personal Website Naman
 
+https://namangoyal.com
+
+Mirror http://thenamangoyal.github.io/
+
 ## Serve Jekyll Locally
 `bundle exec jekyll serve`
 
