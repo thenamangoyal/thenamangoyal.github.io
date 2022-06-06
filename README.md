@@ -4,8 +4,8 @@ https://namangoyal.com
 
 Mirror http://thenamangoyal.github.io
 
-## Install bundler and jekyl
-`gem install --user-install bundler jekyl`
+## Install bundler
+`gem install --user-install bundler `
 `bundle install`
 
 ## Serve Jekyll Locally
